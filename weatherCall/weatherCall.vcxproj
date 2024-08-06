@@ -133,14 +133,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FetchAQI.cpp" />
     <ClCompile Include="fetchData.cpp" />
+    <ClCompile Include="Geoapify.cpp" />
     <ClCompile Include="weatherCall.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FetchAQI.h" />
     <ClInclude Include="fetchData.h" />
+    <ClInclude Include="Geoapify.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
